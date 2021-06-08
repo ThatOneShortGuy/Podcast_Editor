@@ -1,6 +1,7 @@
 # Podcast Editor
-Python program to edit podcasts. (Includes .exe version)
+Python program to edit podcasts.
 There is the gui program and the comand line program. The GUI program is a tkinter overlay of Sound_Edit.py and requires that program to work.
+
 Uses ffmpeg for audio conversions to .wav files. Make sure ffmpeg is added to path and can convert the type of audio you use to .wav.
 
 # Usage of Command line program
@@ -30,17 +31,17 @@ NOTE: The GUI will close when you press the run button. The console will appear 
 
 # Required Modules
 Command Line Program:
-librosa
-numpy
-numba
-soundfile
-argparse
+- librosa
+- numpy
+- numba
+- soundfile
+- argparse
 
 GUI Program:
 All requirements from Command Line Program plus...
-tkinter
-nvidia_smi
-win32com
+- tkinter
+- nvidia_smi
+- win32com
 
 # Making .exe files
 Use pyinstaller on the .spec files
