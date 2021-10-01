@@ -27,7 +27,7 @@ file : input file
 
 # GUI usage
 As simple as run the gui program and fill in the information you want.
-NOTE: The GUI will close when you press the run button. The console will appear behind it providing how far along the computations are.
+**NOTE**: The GUI will close when you press the run button. The console will appear behind it providing how far along the computations are.
 
 # Required Modules
 Command Line Program:
